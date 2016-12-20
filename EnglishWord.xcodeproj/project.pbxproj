@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8820B55615230C1400D780D6 /* MysqlRow.m in Sources */ = {isa = PBXBuildFile; fileRef = 8820B55515230C1400D780D6 /* MysqlRow.m */; };
+		8820B55B152310E300D780D6 /* WordInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 8820B55A152310E300D780D6 /* WordInfo.m */; };
+		883A29171E08E05F003F46EB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 883A29161E08E05F003F46EB /* Images.xcassets */; };
+		88C2C02B1522B43B0099EE89 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88C2C02A1522B43B0099EE89 /* Cocoa.framework */; };
+		88C2C0351522B43B0099EE89 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 88C2C0331522B43B0099EE89 /* InfoPlist.strings */; };
+		88C2C0371522B43B0099EE89 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 88C2C0361522B43B0099EE89 /* main.m */; };
+		88C2C03B1522B43B0099EE89 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 88C2C0391522B43B0099EE89 /* Credits.rtf */; };
+		88C2C03E1522B43B0099EE89 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 88C2C03D1522B43B0099EE89 /* AppDelegate.m */; };
+		88C2C0411522B43B0099EE89 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88C2C03F1522B43B0099EE89 /* MainMenu.xib */; };
+		88C2C0441522B43B0099EE89 /* EnglishWord.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 88C2C0421522B43B0099EE89 /* EnglishWord.xcdatamodeld */; };
+		88C2C04E1522B4C10099EE89 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88C2C04D1522B4C10099EE89 /* ViewController.m */; };
+		88C2C0511522BA5D0099EE89 /* MysqlDB.m in Sources */ = {isa = PBXBuildFile; fileRef = 88C2C0501522BA5D0099EE89 /* MysqlDB.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8820B55415230C1400D780D6 /* MysqlRow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MysqlRow.h; sourceTree = "<group>"; };
+		8820B55515230C1400D780D6 /* MysqlRow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MysqlRow.m; sourceTree = "<group>"; };
+		8820B559152310E300D780D6 /* WordInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WordInfo.h; sourceTree = "<group>"; };
+		8820B55A152310E300D780D6 /* WordInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WordInfo.m; sourceTree = "<group>"; };
+		883A29161E08E05F003F46EB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		88C2C0261522B43B0099EE89 /* EnglishWord.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EnglishWord.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		88C2C02A1522B43B0099EE89 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		88C2C02D1522B43B0099EE89 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		88C2C02E1522B43B0099EE89 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		88C2C02F1522B43B0099EE89 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		88C2C0321522B43B0099EE89 /* EnglishWord-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EnglishWord-Info.plist"; sourceTree = "<group>"; };
+		88C2C0341522B43B0099EE89 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		88C2C0361522B43B0099EE89 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		88C2C0381522B43B0099EE89 /* EnglishWord-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EnglishWord-Prefix.pch"; sourceTree = "<group>"; };
+		88C2C03A1522B43B0099EE89 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		88C2C03C1522B43B0099EE89 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		88C2C03D1522B43B0099EE89 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		88C2C0401522B43B0099EE89 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		88C2C0431522B43B0099EE89 /* EnglishWord.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EnglishWord.xcdatamodel; sourceTree = "<group>"; };
+		88C2C04C1522B4C10099EE89 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		88C2C04D1522B4C10099EE89 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		88C2C04F1522BA5D0099EE89 /* MysqlDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MysqlDB.h; sourceTree = "<group>"; };
+		88C2C0501522BA5D0099EE89 /* MysqlDB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MysqlDB.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		88C2C0231522B43B0099EE89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88C2C02B1522B43B0099EE89 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8820B55815230E1200D780D6 /* Mysql */ = {
+			isa = PBXGroup;
+			children = (
+				88C2C04F1522BA5D0099EE89 /* MysqlDB.h */,
+				88C2C0501522BA5D0099EE89 /* MysqlDB.m */,
+				8820B55415230C1400D780D6 /* MysqlRow.h */,
+				8820B55515230C1400D780D6 /* MysqlRow.m */,
+			);
+			name = Mysql;
+			sourceTree = "<group>";
+		};
+		8820B55C152310E700D780D6 /* Info */ = {
+			isa = PBXGroup;
+			children = (
+				8820B559152310E300D780D6 /* WordInfo.h */,
+				8820B55A152310E300D780D6 /* WordInfo.m */,
+			);
+			name = Info;
+			sourceTree = "<group>";
+		};
+		88C2C01B1522B43B0099EE89 = {
+			isa = PBXGroup;
+			children = (
+				88C2C0301522B43B0099EE89 /* EnglishWord */,
+				88C2C0291522B43B0099EE89 /* Frameworks */,
+				88C2C0271522B43B0099EE89 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		88C2C0271522B43B0099EE89 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				88C2C0261522B43B0099EE89 /* EnglishWord.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		88C2C0291522B43B0099EE89 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				88C2C02A1522B43B0099EE89 /* Cocoa.framework */,
+				88C2C02C1522B43B0099EE89 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		88C2C02C1522B43B0099EE89 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				88C2C02D1522B43B0099EE89 /* AppKit.framework */,
+				88C2C02E1522B43B0099EE89 /* CoreData.framework */,
+				88C2C02F1522B43B0099EE89 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		88C2C0301522B43B0099EE89 /* EnglishWord */ = {
+			isa = PBXGroup;
+			children = (
+				88C4981E1537DEFF00DF71D7 /* View */,
+				88C4981D1537DDD300DF71D7 /* Controller */,
+				8820B55C152310E700D780D6 /* Info */,
+				88C2C03C1522B43B0099EE89 /* AppDelegate.h */,
+				8820B55815230E1200D780D6 /* Mysql */,
+				88C2C03D1522B43B0099EE89 /* AppDelegate.m */,
+				88C2C0421522B43B0099EE89 /* EnglishWord.xcdatamodeld */,
+				883A29161E08E05F003F46EB /* Images.xcassets */,
+				88C2C0311522B43B0099EE89 /* Supporting Files */,
+			);
+			path = EnglishWord;
+			sourceTree = "<group>";
+		};
+		88C2C0311522B43B0099EE89 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				88C2C0321522B43B0099EE89 /* EnglishWord-Info.plist */,
+				88C2C0331522B43B0099EE89 /* InfoPlist.strings */,
+				88C2C0361522B43B0099EE89 /* main.m */,
+				88C2C0381522B43B0099EE89 /* EnglishWord-Prefix.pch */,
+				88C2C0391522B43B0099EE89 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		88C4981D1537DDD300DF71D7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				88C2C04C1522B4C10099EE89 /* ViewController.h */,
+				88C2C04D1522B4C10099EE89 /* ViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		88C4981E1537DEFF00DF71D7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				88C2C03F1522B43B0099EE89 /* MainMenu.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		88C2C0251522B43B0099EE89 /* EnglishWord */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88C2C0471522B43B0099EE89 /* Build configuration list for PBXNativeTarget "EnglishWord" */;
+			buildPhases = (
+				88C2C0221522B43B0099EE89 /* Sources */,
+				88C2C0231522B43B0099EE89 /* Frameworks */,
+				88C2C0241522B43B0099EE89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EnglishWord;
+			productName = EnglishWord;
+			productReference = 88C2C0261522B43B0099EE89 /* EnglishWord.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		88C2C01D1522B43B0099EE89 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+			};
+			buildConfigurationList = 88C2C0201522B43B0099EE89 /* Build configuration list for PBXProject "EnglishWord" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 88C2C01B1522B43B0099EE89;
+			productRefGroup = 88C2C0271522B43B0099EE89 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88C2C0251522B43B0099EE89 /* EnglishWord */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		88C2C0241522B43B0099EE89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88C2C0351522B43B0099EE89 /* InfoPlist.strings in Resources */,
+				883A29171E08E05F003F46EB /* Images.xcassets in Resources */,
+				88C2C03B1522B43B0099EE89 /* Credits.rtf in Resources */,
+				88C2C0411522B43B0099EE89 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		88C2C0221522B43B0099EE89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88C2C0371522B43B0099EE89 /* main.m in Sources */,
+				88C2C03E1522B43B0099EE89 /* AppDelegate.m in Sources */,
+				88C2C0441522B43B0099EE89 /* EnglishWord.xcdatamodeld in Sources */,
+				88C2C04E1522B4C10099EE89 /* ViewController.m in Sources */,
+				88C2C0511522BA5D0099EE89 /* MysqlDB.m in Sources */,
+				8820B55615230C1400D780D6 /* MysqlRow.m in Sources */,
+				8820B55B152310E300D780D6 /* WordInfo.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		88C2C0331522B43B0099EE89 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88C2C0341522B43B0099EE89 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		88C2C0391522B43B0099EE89 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88C2C03A1522B43B0099EE89 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		88C2C03F1522B43B0099EE89 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88C2C0401522B43B0099EE89 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		88C2C0451522B43B0099EE89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "/usr/local/mysql/include/**";
+				LIBRARY_SEARCH_PATHS = "/usr/local/mysql/lib/**";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-lmysqlclient",
+					"-lz",
+					"-lm",
+				);
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		88C2C0461522B43B0099EE89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "/usr/local/mysql/include/**";
+				LIBRARY_SEARCH_PATHS = "/usr/local/mysql/lib/**";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_LDFLAGS = (
+					"-lmysqlclient",
+					"-lz",
+					"-lm",
+				);
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		88C2C0481522B43B0099EE89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EnglishWord/EnglishWord-Prefix.pch";
+				INFOPLIST_FILE = "EnglishWord/EnglishWord-Info.plist";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = (
+					"-lmysqlclient",
+					"-lz",
+					"-lm",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.avaw.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		88C2C0491522B43B0099EE89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EnglishWord/EnglishWord-Prefix.pch";
+				INFOPLIST_FILE = "EnglishWord/EnglishWord-Info.plist";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = (
+					"-lmysqlclient",
+					"-lz",
+					"-lm",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.avaw.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		88C2C0201522B43B0099EE89 /* Build configuration list for PBXProject "EnglishWord" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88C2C0451522B43B0099EE89 /* Debug */,
+				88C2C0461522B43B0099EE89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88C2C0471522B43B0099EE89 /* Build configuration list for PBXNativeTarget "EnglishWord" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88C2C0481522B43B0099EE89 /* Debug */,
+				88C2C0491522B43B0099EE89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		88C2C0421522B43B0099EE89 /* EnglishWord.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				88C2C0431522B43B0099EE89 /* EnglishWord.xcdatamodel */,
+			);
+			currentVersion = 88C2C0431522B43B0099EE89 /* EnglishWord.xcdatamodel */;
+			path = EnglishWord.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 88C2C01D1522B43B0099EE89 /* Project object */;
+}
